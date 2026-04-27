@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import API_BASE_URL from '../config';
 
-const FACTORY_PLACES = ['Mandya', 'Shivamogga', 'Hospet'];
+const FACTORY_PLACES = ['NSL Sugars Mandya', 'Mylar sugars Hoovina Hadagali', 'Mudhol'];
 
 export default function HomeScreen() {
   const { user, token, logout } = useAuth();
